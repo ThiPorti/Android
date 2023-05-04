@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(168, 209, 243);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    background-image: linear-gradient( to bottom, rgb(4, 0, 255), rgb(0, 0, 0));
+}
+
+header h1{
+    color: azure;
+
+}
+
+header p{
+    color: azure;
+    text-align: center;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1500px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+}
+
+.doisT{
+    color: rgb(4, 0, 255);
+}
+
+h2{
+    background-image: linear-gradient( to right, rgb(4, 7, 184), rgb(168, 209, 243), transparent );
+    color: rgb(2, 238, 255);
+
+
+}
+
+nav{
+    text-align: justify;
+    background-color: black;
+}
+
+nav a{
+    text-align: justify;
+    /*background-color: rgb(60, 187, 60);*/
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    font-size: 18px;
+    transition-duration: 1s;
+    padding: 3px;
+}
+
+.home:hover{
+    background-color: rgb(16, 51, 206);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+main a{
+    color: rgb(0, 4, 255);
+    text-decoration: none;
+
+}
+
+p{
+    text-indent: 20px
+}
+
+main img{
+    width: 80%;
+}
+
+main img.android{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    background-color: rgb(27, 57, 114);
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5% ;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: rgb(129, 182, 241);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside > h3 {
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px ;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+aside > ul{
+    list-style-type: '\1F5F8\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+footer a{
+    color: rgb(229, 255, 0);
+}
