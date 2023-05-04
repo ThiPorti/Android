@@ -53,20 +53,15 @@ h2{
 
 }
 
-nav{
-    text-align: justify;
-    background-color: black;
-}
 
 nav a{
     text-align: justify;
-    /*background-color: rgb(60, 187, 60);*/
     text-decoration: none;
     color: rgb(255, 255, 255);
-    margin: 5px;
+    margin: 6px;
     font-size: 18px;
     transition-duration: 1s;
-    padding: 3px;
+    padding: 1px;
 }
 
 .home:hover{
